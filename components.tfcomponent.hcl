@@ -31,7 +31,7 @@ component "instance" {
   providers = {
     aws = provider.aws.this[each.value]
   }
-}
+
 
 component "key_pair" {
   source   = "./key_pair"
